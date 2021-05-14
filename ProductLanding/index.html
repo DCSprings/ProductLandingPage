@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>San Pedro Tour Co.</title>
+  <style>
+    body {
+      margin: 0px 0px 0px 0px;
+    }
+    header {
+      background-color: #ff7f27;
+    }
+    #header-img {
+      max-width: 15%;
+      margin: 5px 0px -45px 5px;
+
+    }
+    #nav-bar {
+      background-color: #88001b;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: auto;
+      font-size: 2rem;
+      justify-content: flex-end;
+    }
+    .nav-link {
+      border: 1px solid #000000;
+      padding: 1px 3px 1px 3px;
+      margin-right: 2px;
+      width: 15%;
+      background-color: #ec1c24;
+      text-align: center;
+    }
+    #content {
+      display: flex;
+      flex-direction: column;
+      background-color: #fdeca6;
+      text-align: center;
+      font-size:  14pt;
+    }
+    #video {
+      display: flex;
+      align-self: center;
+      width: 800px;
+      height: 400px;
+      border: 1px solid #000;
+      background-color: #FFF;
+    }
+    #wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .textChunkLeft {
+      display: flex;
+      flex-direction: row;
+    }
+    .textChunkLeft p{
+      flex-basis:60%;
+    }
+    .textChunkLeft img {
+      flex-basis:40%;
+      height: 300px;
+      border: 1px solid #000;
+      background-color: #FFF;
+    }
+    .textChunkRight {
+      display: flex;
+      flex-direction: row-reverse
+    }
+    .textChunkRight p {
+      flex-basis: 60%;
+    }
+    .textChunkRight img {
+      flex-basis: 40%;
+      height: 300px;
+      border: 1px solid #000;
+      background-color: #FFF;
+    }
+    form {
+      background-color: #fdeca6;
+    }
+  </style>
+</head>
+<body>
+  <header id="header">
+    <img id="header-img" src="logo.png" alt="San Pedro Tour Company logo">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#chunk1">
+        asdf
+      </a>
+      <a class="nav-link" href="#chunk2">
+        asdf
+      </a>
+      <a class="nav-link" href="#chunk3">
+        asdf
+      </a>  
+    </nav>
+  </header>
+  <div id="content">
+    <h1>Come see San Pedro</h1>
+    <video id="video">Video Place Holder</video>
+    <h2>San Pedro offers something for everybody, from historic sites and scenery to bustling breweries and restaurants.</h2>
+    <main id="wrapper"><!-- main container for images and desscriptions -->
+      <div id="chunk1" class="textChunkLeft"><!--image/descrip 1-->
+        <img alt="Placeholder for images">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div id="chunk2" class="textChunkRight"><!--image/descrip 2-->
+        <img alt="Placeholder for images">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div id="chunk3" class="textChunkLeft"><!--image/descrip 3-->
+        <img alt="Placeholder for images">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </main>
+  </div>
+  <form id="form">
+    <input id="email" type="email" placeholder="E-mail">
+
+  </form>
+</body>
+</html>
